@@ -10,8 +10,6 @@ import {FaFacebookF} from "react-icons/fa";
 import { Link} from 'react-router-dom';
 
 
-
-
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
