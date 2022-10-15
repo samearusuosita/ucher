@@ -1,20 +1,28 @@
 .app__about{
     width: 100%;
     background: rgba(155, 155, 155, 0.301);
-    display: flex;
-    flex-direction: row;
+    // display: flex;
+    // flex-direction: row;
     padding: 100px;
     padding-bottom: 0;
 
+    @media screen and (max-width: 1180px) {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 50px 0 50px;
+
+    }
     @media screen and (max-width: 450px) {
         padding: 100px 0 20px 0;
         flex-direction: column;
 
     }
 
+
     .app__about-me{
         width: 100%;
-        padding-bottom: 40px;
+        padding-bottom: 5rem;
+       
         background: transparent;
 
         // box-shadow: 1px 1px 45px  rgba(0, 0, 0, 0.452);
@@ -26,9 +34,9 @@
         
 
         .app__me{
-            font-size: 45px;
+            font-size: 35px;;
             font-family: var(--font-base);
-            font-weight: 400;
+            // font-weight: 400;
             letter-spacing: 1px;
             color: black;
             text-align: center;
@@ -37,11 +45,11 @@
 
     .don{
         position: absolute;
-        font-size: 255px;
+        font-size: 350px;
         font-style: italic;
         right: 0;
         top: 0;
-        color: purple;
+        color: rgba(128, 0, 128, 0.76);
         opacity: 0.1;
         z-index: -2;
 
@@ -51,8 +59,26 @@
         // }
     }
 
+
+    .app__about-content-main{
+        display: flex;
+        flex-direction: row;
+
+        @media screen and (max-width: 1180px) {
+            flex-direction: column;
+        }
+    }
+
+
+
+
     .app__about-content{
         padding-right: 100px;
+
+
+        @media screen and (max-width: 1180px) {
+            padding: 0;
+        }
 
         @media screen and (max-width: 450px) {
             padding: 20px;
@@ -63,10 +89,16 @@
         img{
             width: 500px;
             height: auto;
-            // border-radius: 40px 0 0 40px;
+            // border-radius: 40px 0 40px 0px;
+            border-radius: 20px;
+
+            @media screen and (max-width: 1180px) {
+                width: 100%;
+            }
 
             @media screen and (max-width: 450px) {
-                width: 100%;    
+                width: 100%; 
+                border-radius: 8px;   
             }
            
         }
@@ -74,6 +106,10 @@
 
     .app__about-text{
         flex: 1;
+
+        @media screen and (max-width: 1180px) {
+            padding-top: 50px;
+        }
 
         @media screen and (max-width: 450px) {
             width: 100%; 
