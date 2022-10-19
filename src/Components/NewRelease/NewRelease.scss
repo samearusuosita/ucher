@@ -7,7 +7,6 @@
         background: linear-gradient(rgba(155, 155, 155, 0.301), rgba(0, 0, 0, 0.336));
 
   
-
         .NewRelease-title{
             color: black;
             font-size: 45px;
@@ -53,14 +52,26 @@
                     position: relative;
                     min-width: 400px;
                     height: 250px;
-                    // margin-right: 2rem;
                     border-radius: 8px;
-                   
+
+                    @media screen and (max-width: 450px) {
+                    
+                        margin-left: 165px;
+                        
+                       
+                      }
+
                     iframe{
                         height: 200px;
                         width: 350px;
                         box-shadow: 1px 1px 45px  rgba(0, 0, 0, 0.452);
                         border-radius: 6px;
+                        
+                        @media screen and (max-width: 450px) {
+                    
+                            height: 145px;
+                            width: 250px;
+                          }
                     } 
     
                     .gallery__image-icon{
@@ -74,7 +85,6 @@
                         &:hover {
                             opacity: 0.35;
                         }
-                    
                     }
     
                     @media screen and (min-width: 2000px){
@@ -118,7 +128,6 @@
 
         @media screen and (max-width: 1150px){
             max-width: 100%;
-            // margin: 5rem 0;    
         }
 
         .app__more{

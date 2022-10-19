@@ -7,7 +7,8 @@ import Footer from './Components/Footer/Footer';
 import Navbar from './Components/NavBar/NavBar';
 
 import {Route, Routes} from 'react-router-dom';
-import NewRelease from './Components/NewRelease/NewRelease';
+// import NewRelease from './Components/NewRelease/NewRelease';
+import Photos from './Pages/Photos/Photos';
 
 
 function App({location}) {
@@ -22,9 +23,7 @@ function App({location}) {
             <Route exact path='*' element={<Home/>} />
           </Route>
         </Routes>
-        <NewRelease/>
-
-        {/* {location === 'contact'? <NewRelease/>:""} */}
+        
         <Footer/>
     </div>
   );

@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="app__about-content-main">
         <div className="app__about-content">
-          <img src={Images.Header_BG} alt="about_image" />
+          <img src={Images.tewizy_about} alt="about_image" />
         </div>
         <div className="app__about-text">
           <h3 className='app__about-title'>I am tewizy</h3>

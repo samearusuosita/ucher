@@ -1,36 +1,22 @@
 import React from 'react';
-import "./ImageEffect.css";
+// import {Images} from "../../Constant";
+import "./ImageEffect.scss";
 
+import ImageEffect from "react-photo-album";
 
-const ImageEffect = () => {
+const photos = [
+    {
+        src: '../../Img/tewizy_bbg.JPG',
+        width: 800,
+        height: 600
+    },
+    {
+        // src: "Images.tewizy_bbg.JPG",
+        width: 1600,
+        height: 900
+    }
+];
 
-   
-  return (
-    <div className='secontaion'>
-      <h2>DON TEWIZY</h2>
-      <div className="banner">
-        <div className="blocks"></div>
-      </div>
+<ImageEffect layout="rows" photos={photos} />
 
-      
-    </div>
-
-    
-  )
-}
-
-
-
-
-
-export default ImageEffect
-
-const banner = document.getElementsByClassName('banner')[0];
-const blocks = document.getElementsByClassName('blocks');
-
-for (var i = 1; i < 400; i++){
-    banner.innerHTML += "<div className='blocks'></div>";
-    const duration = Math.random() * 5;
-    blocks[i].style.animationDuration = 2 + duration + 's'
-    blocks[i].style.animationDelay = duration + 's'
-}
+export default ImageEffect;

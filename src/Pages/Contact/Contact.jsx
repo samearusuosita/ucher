@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="app__contact-content">
         <div className="app_contact-main">
           <h2 className='app__contact-head'>Get in touch</h2>
-          <p className='app__contact-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, placeat?</p>
+          <p className='app__contact-p'>I am here to help you laugh up</p>
 
           <div className="app__contacts-info">
 
