@@ -25,7 +25,9 @@ const Contact = () => {
             </div>
           ))}
           </div>
+
           <div className="app__contact-form">
+            <h3 className='app__massage_text'>Message Me</h3>
               <input type="text" placeholder='Your Name' maxLength={40}/>
               <input type="email" placeholder='Your Email' maxLength={70}/>
               <textarea name="" id="" cols="30" rows="10" placeholder='Enter your Message'></textarea>
