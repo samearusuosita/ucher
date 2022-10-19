@@ -20,6 +20,11 @@
                     
                 padding-top: 150px;
             }
+
+            @media screen and (max-width: 450px) {
+                    
+                padding: 100px 0 15px 0;
+              }
            
         }
 
@@ -30,6 +35,11 @@
             letter-spacing: 1px;
             text-align: center;
             padding: 0 100px 50px 100px;
+
+            @media screen and (max-width: 450px) {
+                    
+                padding: 0 0 30px 0;
+              }
         }
 
 
@@ -47,6 +57,12 @@
                 overflow-x: scroll;
                 -ms-overflow-style: none;
                 scrollbar-width: none;
+                @media screen and (max-width: 450px) {
+                    
+                    // margin-left: 30px;
+                    
+                   
+                  }
     
                 .app__gallery-video_card{
                     position: relative;
@@ -56,7 +72,9 @@
 
                     @media screen and (max-width: 450px) {
                     
-                        margin-left: 165px;
+                        padding: 130px;
+                        padding-bottom: 0;
+                        padding-top: 0;
                         
                        
                       }
@@ -110,6 +128,11 @@
             align-items: center;
             padding-top: 2rem;
             bottom: 5%;
+
+            @media screen and (max-width: 450px) {
+                padding-top: 0.75rem;
+                
+              }
 
 
             .gallery__arrow-icon{

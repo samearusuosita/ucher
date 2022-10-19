@@ -51,7 +51,7 @@ const NewRelease = () => {
     <div className='app_NewRelease'>
       <div className="title-newrelease">
         <h1 className='NewRelease-title'>New Release</h1>  
-        <p className='newRelease-p-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className='newRelease-p-text'>Exiting clips to help you forget your worries</p>
       
         <div className="app__gallery-video">
           <div className="app__gallery-video_container" ref={scrollRef}>
