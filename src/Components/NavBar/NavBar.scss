@@ -53,6 +53,7 @@
             display: none;;
         }
 
+
         a{
             color: white;
             font-size: 15px;
@@ -70,6 +71,35 @@
             background: white;
             color: red;
         }
+    }
+
+    .app__navbar-social{
+       width: 150px;
+       margin-right: 50px;
+
+        .social-icons-nav1{
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            list-style: none;
+
+            svg{
+                width: 25px;
+                height: 25px;
+                color: white;
+
+                &:hover{
+                    color: rgb(245, 128, 245);
+                }
+            }           
+    
+        }
+
+        @media screen and (max-width: 450px){
+            display: none;
+            
+        }
+
     }
 }
 

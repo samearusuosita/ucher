@@ -26,6 +26,15 @@ const Navbar = () => {
           <li><Link to='/contact'>Contact</Link></li>
         </ul>
 
+        
+        <div className="app__navbar-social">
+          <ul className="social-icons-nav1">
+            <li><a href="https://facebook.com/tewizy" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
+            <li><a href="https://instagram.com/tewizy" target="_blank" rel="noopener noreferrer"><BsInstagram/></a></li>
+            <li><a href="https://twitter.com/tewizy"target="_blank" rel="noopener noreferrer"><BsTwitter/></a></li>
+          </ul>
+        </div>
+
         <div className="app__navbar-youtube">
           <a href="https://youtube.com">YouTube</a>
         </div>
@@ -46,10 +55,10 @@ const Navbar = () => {
           </ul>
 
           <ul className="social-icons-nav">
-                  <li><a href="https://facebook.com/tewizy" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
-                  <li><a href="https://instagram.com/tewizy" target="_blank" rel="noopener noreferrer"><BsInstagram/></a></li>
-                  <li><a href="https://twitter.com/tewizy"target="_blank" rel="noopener noreferrer"><BsTwitter/></a></li>
-                </ul>
+            <li><a href="https://facebook.com/tewizy" target="_blank" rel="noopener noreferrer"><FaFacebookF/></a></li>
+            <li><a href="https://instagram.com/tewizy" target="_blank" rel="noopener noreferrer"><BsInstagram/></a></li>
+            <li><a href="https://twitter.com/tewizy"target="_blank" rel="noopener noreferrer"><BsTwitter/></a></li>
+          </ul>
           </motion.div>
           )}
 
